@@ -1,4 +1,4 @@
-# L'utilisateur crée son mot de passe
+j# L'utilisateur crée son mot de passe
 def make_sign_up
     puts "Veuillez créer votre mot de passe"
     print "> "
