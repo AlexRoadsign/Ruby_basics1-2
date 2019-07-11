@@ -1,8 +1,10 @@
-puts "Whats is you name ?"
-first_name = gets.chomp
+#puts "Whats is you name ?"
+#first_name = gets.chomp.to_s
 
-def say_hello (first_name, prefix = "Bonjour!")
-	puts "#{prefix} #{first_name}"
+def name 
+	puts "What is your name ?"
+	first_name = gets.chomp.to_s
 end
 
-return say_hello
+
+print "Bonjour #{name}"
